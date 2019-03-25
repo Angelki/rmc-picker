@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom';
 import Modal from 'rc-dialog';
+import createReactClass from 'create-react-class';
 import { addEventListener, contains, noop } from './utils';
 
-const PopupPicker = React.createClass({
+const PopupPicker = createReactClass({
   propTypes: {
     visible: PropTypes.bool,
     onOk: PropTypes.func,

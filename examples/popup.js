@@ -3,11 +3,12 @@
 import 'rmc-picker/assets/index.less';
 import 'rmc-picker/assets/popup.less';
 import React from 'react';
+import createReactClass from 'create-react-class';
 import ReactDOM from 'react-dom';
 
 import PopPicker from 'rmc-picker/src/Popup';
 
-const Demo = React.createClass({
+const Demo = createReactClass({
   onOk() {
     console.log('onOk');
   },

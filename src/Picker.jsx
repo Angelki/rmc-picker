@@ -6,6 +6,7 @@
  */
 
 import React from 'react';
+import createReactClass from 'create-react-class';
 import PropTypes from 'prop-types';
 import { Animate, easeOutCubic, easeInOutCubic } from './Animate';
 
@@ -56,7 +57,7 @@ function isChildrenEqual(c1, c2, pure) {
   return true;
 }
 
-const Picker = React.createClass({
+const Picker = createReactClass({
   propTypes: {
     defaultSelectedValue: PropTypes.any,
     prefixCls: PropTypes.string,

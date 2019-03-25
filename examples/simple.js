@@ -2,12 +2,13 @@
 
 import 'rmc-picker/assets/index.less';
 import Picker from 'rmc-picker';
+import createReactClass from 'create-react-class';
 import React from 'react';
 import ReactDOM from 'react-dom';
 let count = 0;
 const len = 10;
 
-const Test = React.createClass({
+const Test = createReactClass({
   getInitialState() {
     return {
       items: this.getItems(count),
