@@ -24,7 +24,7 @@
     "lib",
     "assets/*.css"
   ],
-  "licenses": "MIT",
+  "license": "MIT",
   "main": "./lib/index",
   "config": {
     "port": 8020
@@ -45,16 +45,14 @@
     "rc-dialog": "6.x"
   },
   "devDependencies": {
-    "array-tree-filter": "1.x",
-    "expect.js": "0.3.x",
+    "array-tree-filter": "^2.1.0",
+    "create-react-class": "^15.6.3",
+    "expect.js": "^0.3.1",
     "fastclick": "^1.0.6",
-    "pre-commit": "1.x",
-    "rc-tools": "5.x",
-    "react": "0.14.x",
-    "react-addons-test-utils": "0.14.x",
-    "react-dom": "0.14.x"
-  },
-  "pre-commit": [
-    "lint"
-  ]
+    "pre-commit": "^1.2.2",
+    "rc-tools": "^9.3.11",
+    "react": "^16.8.5",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.8.5"
+  }
 }
