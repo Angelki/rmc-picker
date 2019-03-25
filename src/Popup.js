@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom';
 import Modal from 'rc-dialog';
 import { addEventListener, contains, noop } from './utils';

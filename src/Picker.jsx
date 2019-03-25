@@ -5,7 +5,8 @@
  * https://raw.github.com/zynga/scroller/master/MIT-LICENSE.txt
  */
 
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { Animate, easeOutCubic, easeInOutCubic } from './Animate';
 
 const DECELERATION_VELOCITY_RATE = 0.95;
